@@ -38,6 +38,9 @@ function isLeapYear(numero1,numero2){ //declaro la función con los datos que ne
     alert(resultado) 
 }
 
+//Dejamos que el usuario meta dos años
 const firstyear = window.prompt("Introduce el primer año")
 const secondyear = window.prompt("Introduce el segundo año")
+
+//Se ejecuta la función con los datos introducidos
 isLeapYear(firstyear,secondyear)
